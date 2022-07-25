@@ -1,0 +1,27 @@
+{
+  "name": "brasaveiro",
+  "version": "0.0.0",
+  "description": "BRASA Aveiro • Aproxima, Abraça e Aprimora!",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Gustavo Tupini",
+      "url": "https://github.com/sensoda"
+    }
+  ],
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nrwl/cli": "14.4.3",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/workspace": "14.4.3",
+    "nx": "14.4.3",
+    "prettier": "^2.6.2",
+    "typescript": "~4.7.2"
+  }
+}
